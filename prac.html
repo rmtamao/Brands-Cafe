@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brad's Eatery Kitchen and Cafe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  
+    <style>
+     
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            scroll-behavior: smooth; /* Enable smooth scrolling */
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+
+        header {
+            background-color: #210000;
+            padding: 20px 0;
+            color: white;
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo img {
+            height: 100px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+       
+        #hero {
+            background:url('https://scontent.fmnl17-5.fna.fbcdn.net/v/t39.30808-6/428691087_122122001402194823_4398959324257478680_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeEYYSHuFM33MFBqCA0K9AOFuWoq49JlrFu5airj0mWsW9Fty-3S2kWcOi1p-mHSGc-xftJJlATAQQGeJ70owmPS&_nc_ohc=0K9-Dog6C6gQ7kNvgEY-0zt&_nc_zt=23&_nc_ht=scontent.fmnl17-5.fna&_nc_gid=AY4vtsOrjTMpXXbdzkJev2-&oh=00_AYCo7lGJ0nsu4kLmfiyDRi2YmNrz60lKdEBK1-YoqkgDGg&oe=6730CF9F') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 150px 0;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            padding: 10px 20px;
+            background-color: #DC9D00;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #210000;
+        }
+
+        
+        .section {
+            padding: 75px 1;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+       
+        #about {
+            background-color: #f9f9f9;
+        }
+
+       
+        footer {
+            background-color: #210000;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin: 10px 0;
+        }
+
+        footer a {
+            color: white;
+            margin: 0 5px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+
+    <header>
+        <div class="container">
+            <div class="logo">
+         <img src="bradss.png"
+                     width="115" 
+                     height="120" />
+            </div>
+            <nav>
+                <a href="#hero">Home</a>
+                <a href="#about">About Us</a>
+                <a href="https://maps.app.goo.gl/QkLpzakJtYAUqEZJ7">Store Location</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero-text">
+<br>
+<br>
+<br>
+
+            <a href="#menu" class="cta-button">Explore Our Menu</a>
+        </div>
+    </section>
+
+
+
+    <section id="menu" class="section">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <p>Discover your favorite coffee and more.</p>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="https://manilacafe.ph/wp-content/uploads/2023/02/menu_1-min-771x1024.png">
+                    <h3>Coffee</h3>
+                    <p>A rich blend of freshly brewed coffee.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="https://via.placeholder.com/300" alt="Tea">
+                    <h3>Tea</h3>
+                    <p>Freshly brewed tea with a variety of flavors.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="https://via.placeholder.com/300" alt="Pastry">
+                    <h3>Pastries</h3>
+                    <p>Freshly baked pastries to enjoy with your drink.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Brad's Kitchen and Café, opened by Mr. Manuel Vasquez in January 2024, revitalizes its area with a cozy, inviting atmosphere. Inspired by the joy of sharing meals with loved ones, it offers breakfast to dinner daily from 11 AM to 11 PM.</p>
+           
+        </div>
+    </section>
+   
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Brad's Eatery Kitchen and Cafe. All rights reserved.</p>
+            <p>Follow us on Facebook</p>
+        </div>
+    </footer>
+
+</body>
+</html>
